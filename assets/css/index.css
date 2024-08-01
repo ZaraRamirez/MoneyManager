@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Jost", sans-serif;
+  background: linear-gradient(150deg, #052c53 70%, #e4f1f1 30%);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  min-height: 100vh;
+  position: relative;
+}
+
+/*Estilos para el texto */
+.Centrar-texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Centrar-texto .text-content {
+  color: white;
+  text-align: left;
+  margin: 0 3rem 0 6rem;
+  /* Margenes */
+}
+
+.text-content h1 {
+  font-family: 'Jost', sans-serif;
+  font-weight: bold;
+}
+
+.text-content h1:hover {
+  transform: scale(1.05);
+}
+
+.text-content h6 {
+  font-family: 'Inter', sans-serif;
+}
+
+/*Botones*/
+.input-group .form-group {
+  margin-bottom: 20px;
+}
+
+.input-group .form-group:hover {
+  transform: scale(1.05);
+}
+
+/*Botón únete ahora*/
+.btn-Unete {
+  background-color: #84c8d1;
+  color: white;
+}
+
+.btn-Unete:hover {
+  color: white;
+}

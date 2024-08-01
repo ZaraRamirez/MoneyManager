@@ -1,0 +1,41 @@
+#ladoizquierdo {
+  font-family: "Jost", sans-serif;
+  background-color: #052C53;
+}
+
+.center-logo {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#ladoderecho {
+  background-color: #84C8D1;
+  background-image: url(../img/login/fondoLogin.png);
+  background-size: cover;
+}
+
+.center-login {
+  padding: 25% 0;
+  text-align: center;
+  width: 375px;
+  margin: 0 auto;
+}
+
+.text-iniciarsesion {
+  font-weight: bold;
+}
+
+.button {
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
